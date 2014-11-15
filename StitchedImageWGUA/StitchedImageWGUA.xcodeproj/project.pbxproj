@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0C95C21A17426500B9BCCB /* JNYJ.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0C95C11A17426500B9BCCB /* JNYJ.png */; };
+		7C4AD9B01A173E2600684FD8 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4AD9AF1A173E2600684FD8 /* UIImage+Resize.m */; };
+		7C4AD9B31A173E2B00684FD8 /* JNYJImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4AD9B21A173E2B00684FD8 /* JNYJImage.m */; };
+		7C4AD9B81A173E3200684FD8 /* LargeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4AD9B51A173E3200684FD8 /* LargeImageView.m */; };
+		7C4AD9B91A173E3200684FD8 /* UIImage+largeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4AD9B71A173E3200684FD8 /* UIImage+largeImage.m */; };
+		7C4AD9BC1A173E3700684FD8 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4AD9BB1A173E3700684FD8 /* UIImage+animatedGIF.m */; };
 		7CBAEB021A1738CD00A88622 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAEB011A1738CD00A88622 /* AppDelegate.swift */; };
 		7CBAEB041A1738CD00A88622 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAEB031A1738CD00A88622 /* ViewController.swift */; };
 		7CBAEB071A1738CD00A88622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CBAEB051A1738CD00A88622 /* Main.storyboard */; };
 		7CBAEB091A1738CD00A88622 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CBAEB081A1738CD00A88622 /* Images.xcassets */; };
 		7CBAEB0C1A1738CD00A88622 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CBAEB0A1A1738CD00A88622 /* LaunchScreen.xib */; };
 		7CBAEB181A1738CD00A88622 /* StitchedImageWGUATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAEB171A1738CD00A88622 /* StitchedImageWGUATests.swift */; };
+		7CBAEB241A1739C200A88622 /* JNYJStitchedImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAEB231A1739C200A88622 /* JNYJStitchedImages.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C0C95C11A17426500B9BCCB /* JNYJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JNYJ.png; sourceTree = "<group>"; };
+		7C4AD9AE1A173E2600684FD8 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		7C4AD9AF1A173E2600684FD8 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		7C4AD9B11A173E2B00684FD8 /* JNYJImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNYJImage.h; sourceTree = "<group>"; };
+		7C4AD9B21A173E2B00684FD8 /* JNYJImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNYJImage.m; sourceTree = "<group>"; };
+		7C4AD9B41A173E3200684FD8 /* LargeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargeImageView.h; sourceTree = "<group>"; };
+		7C4AD9B51A173E3200684FD8 /* LargeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LargeImageView.m; sourceTree = "<group>"; };
+		7C4AD9B61A173E3200684FD8 /* UIImage+largeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+largeImage.h"; sourceTree = "<group>"; };
+		7C4AD9B71A173E3200684FD8 /* UIImage+largeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+largeImage.m"; sourceTree = "<group>"; };
+		7C4AD9BA1A173E3700684FD8 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		7C4AD9BB1A173E3700684FD8 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 		7CBAEAFC1A1738CD00A88622 /* StitchedImageWGUA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StitchedImageWGUA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CBAEB001A1738CD00A88622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CBAEB011A1738CD00A88622 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +54,9 @@
 		7CBAEB111A1738CD00A88622 /* StitchedImageWGUATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StitchedImageWGUATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CBAEB161A1738CD00A88622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CBAEB171A1738CD00A88622 /* StitchedImageWGUATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StitchedImageWGUATests.swift; sourceTree = "<group>"; };
+		7CBAEB211A1739C100A88622 /* StitchedImageWGUA-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StitchedImageWGUA-Bridging-Header.h"; sourceTree = "<group>"; };
+		7CBAEB221A1739C200A88622 /* JNYJStitchedImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNYJStitchedImages.h; sourceTree = "<group>"; };
+		7CBAEB231A1739C200A88622 /* JNYJStitchedImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNYJStitchedImages.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C4AD9AD1A173E1300684FD8 /* ImageCategory */ = {
+			isa = PBXGroup;
+			children = (
+				7C4AD9AE1A173E2600684FD8 /* UIImage+Resize.h */,
+				7C4AD9AF1A173E2600684FD8 /* UIImage+Resize.m */,
+				7C4AD9B11A173E2B00684FD8 /* JNYJImage.h */,
+				7C4AD9B21A173E2B00684FD8 /* JNYJImage.m */,
+				7C4AD9B41A173E3200684FD8 /* LargeImageView.h */,
+				7C4AD9B51A173E3200684FD8 /* LargeImageView.m */,
+				7C4AD9B61A173E3200684FD8 /* UIImage+largeImage.h */,
+				7C4AD9B71A173E3200684FD8 /* UIImage+largeImage.m */,
+				7C4AD9BA1A173E3700684FD8 /* UIImage+animatedGIF.h */,
+				7C4AD9BB1A173E3700684FD8 /* UIImage+animatedGIF.m */,
+			);
+			name = ImageCategory;
+			sourceTree = "<group>";
+		};
 		7CBAEAF31A1738CD00A88622 = {
 			isa = PBXGroup;
 			children = (
@@ -79,10 +117,15 @@
 			children = (
 				7CBAEB011A1738CD00A88622 /* AppDelegate.swift */,
 				7CBAEB031A1738CD00A88622 /* ViewController.swift */,
+				7CBAEB221A1739C200A88622 /* JNYJStitchedImages.h */,
+				7CBAEB231A1739C200A88622 /* JNYJStitchedImages.m */,
+				7C0C95C11A17426500B9BCCB /* JNYJ.png */,
+				7C4AD9AD1A173E1300684FD8 /* ImageCategory */,
 				7CBAEB051A1738CD00A88622 /* Main.storyboard */,
 				7CBAEB081A1738CD00A88622 /* Images.xcassets */,
 				7CBAEB0A1A1738CD00A88622 /* LaunchScreen.xib */,
 				7CBAEAFF1A1738CD00A88622 /* Supporting Files */,
+				7CBAEB211A1739C100A88622 /* StitchedImageWGUA-Bridging-Header.h */,
 			);
 			path = StitchedImageWGUA;
 			sourceTree = "<group>";
@@ -194,6 +237,7 @@
 			files = (
 				7CBAEB071A1738CD00A88622 /* Main.storyboard in Resources */,
 				7CBAEB0C1A1738CD00A88622 /* LaunchScreen.xib in Resources */,
+				7C0C95C21A17426500B9BCCB /* JNYJ.png in Resources */,
 				7CBAEB091A1738CD00A88622 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +257,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CBAEB041A1738CD00A88622 /* ViewController.swift in Sources */,
+				7C4AD9B91A173E3200684FD8 /* UIImage+largeImage.m in Sources */,
+				7C4AD9B01A173E2600684FD8 /* UIImage+Resize.m in Sources */,
+				7C4AD9B81A173E3200684FD8 /* LargeImageView.m in Sources */,
+				7CBAEB241A1739C200A88622 /* JNYJStitchedImages.m in Sources */,
+				7C4AD9BC1A173E3700684FD8 /* UIImage+animatedGIF.m in Sources */,
 				7CBAEB021A1738CD00A88622 /* AppDelegate.swift in Sources */,
+				7C4AD9B31A173E2B00684FD8 /* JNYJImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,9 +388,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = StitchedImageWGUA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StitchedImageWGUA/StitchedImageWGUA-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,9 +402,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = StitchedImageWGUA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StitchedImageWGUA/StitchedImageWGUA-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +464,7 @@
 				7CBAEB1D1A1738CD00A88622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CBAEB1E1A1738CD00A88622 /* Build configuration list for PBXNativeTarget "StitchedImageWGUATests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +473,7 @@
 				7CBAEB201A1738CD00A88622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
